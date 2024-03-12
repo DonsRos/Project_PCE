@@ -25,7 +25,7 @@ namespace KP_BAH
         private readonly DataSet ds = new DataSet();
         private readonly DataTable dt = new DataTable();
 
-        readonly string conString = "Host=127.0.0.1;Port=5432;Database=postgres;Username=postgres;Password=123;Include Error Detail=true;";
+        readonly string conString = "Host=127.0.0.1;Port=5432;Database=cabs;Username=postgres;Password=123;Include Error Detail=true;";
         readonly string sql = ("SELECT * FROM public.\"cpus\";");
         public DATABASE()
         {

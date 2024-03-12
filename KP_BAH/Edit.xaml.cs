@@ -15,7 +15,7 @@ namespace KP_BAH
             InitializeComponent();
         }
 
-        readonly string conString = "Host=127.0.0.1;Port=5432;Database=postgres;Username=postgres;Password=123;";
+        readonly string conString = "Host=127.0.0.1;Port=5432;Database=cabs;Username=postgres;Password=123;";
         readonly string sql = "UPDATE public.\"cpus\" " +
             "SET name = @value1, " +
             "number = @value2, " +

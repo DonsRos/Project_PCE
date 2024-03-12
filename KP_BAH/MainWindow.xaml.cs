@@ -13,7 +13,7 @@ namespace KP_BAH
         public MainWindow()
         {
             InitializeComponent();
-            var con = new NpgsqlConnection(connectionString: "Host=127.0.0.1;Port=5432;Database=postgres;Username=postgres;Password=123");
+            var con = new NpgsqlConnection(connectionString: "Host=127.0.0.1;Port=5432;Database=cabs;Username=postgres;Password=123");
             con.Open();
         }
 

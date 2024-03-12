@@ -12,7 +12,7 @@ namespace KP_BAH
             InitializeComponent();
         }
 
-        readonly string conString = "Host=127.0.0.1;Port=5432;Database=postgres;Username=postgres;Password=123;Include Error Detail=true;";
+        readonly string conString = "Host=127.0.0.1;Port=5432;Database=cabs;Username=postgres;Password=123;Include Error Detail=true;";
         readonly string sql_client = "INSERT INTO public.\"cpus\" " +
             "(name, number, description) " +
             "VALUES (@value1, @value2, @value3);";
